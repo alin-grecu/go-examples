@@ -3,10 +3,10 @@
 
 ```bash
 NAME:
-   gonet.exe - A new cli application
+   netcli - A new cli application
 
 USAGE:
-   gonet.exe [global options] command [command options] [arguments...]
+   netcli.exe [global options] command [command options] [arguments...]
 
 COMMANDS:
    ns       Looks up the nameservers for a particular host
@@ -17,12 +17,12 @@ COMMANDS:
 
 GLOBAL OPTIONS:
    --help, -h  show help (default: false)
-PS C:\Users\alins\Documents\GitHub\go-examples\cli-tools\network-cli> .\gonet.exe
+PS C:\Users\alins\Documents\GitHub\go-examples\cli-tools\network-cli> .\netcli.exe
 NAME:
-   gonet.exe - A new cli application
+   netcli.exe - A new cli application
 
 USAGE:
-   gonet.exe [global options] command [command options] [arguments...]
+   netcli.exe [global options] command [command options] [arguments...]
 
 COMMANDS:
    ns       Looks up the nameservers for a particular host
@@ -50,6 +50,6 @@ go get github.com/urface/cli
 
 ### Build and run
 ```bash
-go build cmd/network-cli/gonet.go
-./gonet
+go build cmd/network-cli/netcli.go
+./netcli
 ```
